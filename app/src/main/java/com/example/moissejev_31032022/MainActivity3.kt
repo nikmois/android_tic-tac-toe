@@ -13,7 +13,7 @@ class MainActivity3 : AppCompatActivity() {
         setContentView(R.layout.activity_main3)
         val btnPerehod = findViewById<Button>(R.id.buttonFirst)
         btnPerehod.setOnClickListener{
-            val intent= Intent(this@MainActivity3, MainActivity2::class.java)
+            val intent= Intent(this@MainActivity3, MainActivity::class.java)
             startActivity(intent)
         }
         val btnPerehod1 = findViewById<Button>(R.id.Exit)
